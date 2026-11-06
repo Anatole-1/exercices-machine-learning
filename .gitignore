@@ -1,0 +1,6 @@
+# generated when running the notebooks
+*.weights.h5
+data/sign_mnist/
+Sign-Language-Digits-Dataset/
+.ipynb_checkpoints/
+__pycache__/
