@@ -1,6 +1,6 @@
 # Exercices de Machine Learning
 
-On y part de la régression linéaire codée à la main et on va jusqu'au transfer learning avec VGG16.
+Quatre notebooks d'exercices de machine learning, de la régression linéaire codée à la main jusqu'au transfer learning avec VGG16.
 
 ![Python](https://img.shields.io/badge/Python-3-3776AB?logo=python&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)
