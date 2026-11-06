@@ -24,21 +24,23 @@ Quatre notebooks d'exercices de machine learning, de la régression linéaire co
 
 ## Résultats
 
-| Exercice | Jeu de données | Méthode | Résultat |
-|---|---|---|---|
-| 1.1 | Combined Cycle Power Plant | Régression linéaire | MAE = 3.63 MW |
-| 1.4 | 4 points fixes | Descente de gradient (points de Steiner) | Longueur totale = 8.345 |
-| 2.1 | Breast Cancer Wisconsin | Régression logistique | 562 / 569 bien classés |
-| 2.2 | Wine recognition | Régression logistique (3 classes) | 178 / 178 bien classés |
-| 3.1 | Sign Language MNIST (24 lettres) | CNN | accuracy = 98.6 % |
-| 3.2 | Sign Language Digits (10 chiffres) | CNN | accuracy = 99.3 % |
-| 3.3 | Flowers (5 classes) | CNN + data augmentation | accuracy = 93.8 % |
-| 3.4 | Flowers (5 classes) | Transfer learning VGG16 | accuracy = 92.3 % |
-| 4.1 | 4 spirales | Réseau dense, 1 couche cachée | accuracy = 98.8 % |
-| 4.2 | Apple Quality | Réseau dense (binaire) | accuracy = 89.7 % |
-| 4.3 | Dry Beans (7 classes) | Réseau dense | accuracy = 93.7 % |
-| 4.4 | Sign Language MNIST | Réseau dense | accuracy = 82.6 % |
-| 4.5 | Car Features and MSRP | Réseau dense (régression) | MAE = 2 611 $ |
+Numérotation : *notebook.exercice* (par exemple 3.2 = notebook 3, exercice 2). Les scores sont ceux de l'exécution enregistrée dans les notebooks.
+
+| Exercice | Jeu de données | Méthode | Résultat | Évalué sur |
+|---|---|---|---|---|
+| 1.1 | Combined Cycle Power Plant | Régression linéaire | MAE = 3.63 MW | toutes les données |
+| 1.4 | 4 points fixes | Descente de gradient (points de Steiner) | Longueur totale = 8.345 | – |
+| 2.1 | Breast Cancer Wisconsin | Régression logistique | 562 / 569 bien classés | toutes les données |
+| 2.2 | Wine recognition | Régression logistique (3 classes) | 178 / 178 bien classés | toutes les données |
+| 3.1 | Sign Language MNIST (24 lettres) | CNN | accuracy = 98.6 % | jeu de test |
+| 3.2 | Sign Language Digits (10 chiffres) | CNN | accuracy = 99.3 % | jeu de test |
+| 3.3 | Flowers (5 classes) | CNN + data augmentation | accuracy = 93.8 % | jeu de test |
+| 3.4 | Flowers (5 classes) | Transfer learning VGG16 | accuracy = 92.3 % | jeu de test |
+| 4.1 | 4 spirales | Réseau dense, 1 couche cachée | accuracy = 98.8 % | toutes les données |
+| 4.2 | Apple Quality | Réseau dense (binaire) | accuracy = 89.7 % | jeu de test |
+| 4.3 | Dry Beans (7 classes) | Réseau dense | accuracy = 93.7 % | jeu de test |
+| 4.4 | Sign Language MNIST | Réseau dense | accuracy = 82.6 % | jeu de test |
+| 4.5 | Car Features and MSRP | Réseau dense (régression) | MAE = 2 611 $ | jeu de test |
 
 ## Lancer les notebooks
 
@@ -66,7 +68,7 @@ Il suffit de cliquer sur le badge *Open in Colab* du notebook voulu. La premièr
 ├── 03_convolutional_neural_networks.ipynb
 ├── 04_neural_networks.ipynb
 ├── data/              # jeux de données utilisés par les notebooks
-├── images/            # figures des énoncés
+├── images/            # figures des énoncés et du README
 └── requirements.txt
 ```
 
